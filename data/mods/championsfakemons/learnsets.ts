@@ -2,7 +2,7 @@ import type { MoveSource } from '../../../sim/dex-species';
 import { TYPEN_FORMS, typenStrikeID } from './typen-data';
 
 export const Learnsets:
-	import('../../../sim/dex-species').ModdedLearnsetDataTable = {};
+	import('../../../sim/dex-species').ModdedLearnsetDataTable = { ...require('../champions/learnsets').Learnsets };
 
 /*
  * Everything Typelet could learn, plus the two moves
