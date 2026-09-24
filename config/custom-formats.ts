@@ -463,4 +463,23 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 			}
 		},
 	},
+
+	{
+			section: 'Champions',
+		},
+		{
+			name: '[Gen 9 Champions] VGC 2026 Reg M-C + Fakemons',
+			desc: `Pokémon Champions VGC 2026 Regulation M-C with Additional Fakemons.`,
+			mod: 'championsfakemons',
+		
+			gameType: 'doubles',
+			bestOfDefault: true,
+		
+			ruleset: [
+				'Flat Rules',
+				'VGC Timer',
+				'Open Team Sheets',
+			],
+		},
 ];
+
