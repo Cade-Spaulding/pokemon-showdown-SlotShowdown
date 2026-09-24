@@ -468,7 +468,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 			section: 'Champions',
 		},
 		{
-			name: 'Reg M-C + Fakemons',
+			name: '[Champions] Reg M-C + Fakemons',
 			desc: `Pokémon Champions VGC 2026 Regulation M-C with Additional Fakemons.`,
 			mod: 'championsfakemons',
 		
