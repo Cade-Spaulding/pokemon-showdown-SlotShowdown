@@ -1,6 +1,6 @@
 import { TYPEN_TYPES, typenStrikeID } from './typen-data';
 
-export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {};
+export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = { ...require('../champions/moves').Moves };
 
 for (let i = 0; i < TYPEN_TYPES.length; i++) {
 	const type = TYPEN_TYPES[i];

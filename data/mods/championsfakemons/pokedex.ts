@@ -2,7 +2,7 @@
 import { TYPEN_FORMS } from './typen-data';
 
 export const Pokedex:
-	import('../../../sim/dex-species').ModdedSpeciesDataTable = {};
+	import('../../../sim/dex-species').ModdedSpeciesDataTable = { ...require('../champions/pokedex').Pokedex };
 
 const OTHER_FORMES = TYPEN_FORMS
 	.filter(form => form.id !== 'typen')
