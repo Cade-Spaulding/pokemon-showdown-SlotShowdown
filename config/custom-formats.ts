@@ -95,36 +95,56 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 				speciesTable.add(species.num);
 			}
 
+		/*
+		 * Slots 1-5 may use forme-changing items normally.
+		 *
+		 * They just aren't allowed to use an item as an OFF-LABEL
+		 * Mix and Mega transformation.
+		 *
+		 * Examples:
+		 *
+		 * Ogerpon-Wellspring @ Wellspring Mask   -> OK
+		 * Arceus-Fire @ Flame Plate              -> OK
+		 * Silvally-Water @ Water Memory          -> OK
+		 * Dialga-Origin @ Adamant Crystal        -> OK
+		 *
+		 * Pikachu @ Wellspring Mask              -> NOT OK
+		 * Landorus-T @ Flame Plate               -> NOT OK
+		 *
+		 * Mega Stones / Primal Orbs are reserved for slot 6.
+		 */
+		for (let i = 0; i < 5; i++) {
+			const set = team[i];
+			const species = this.dex.species.get(set.species);
+			const item = this.dex.items.get(set.item);
+		
+			const isMnMItem =
+				!!(item.forcedForme && !item.zMove) ||
+				!!item.megaStone ||
+				!!item.isPrimalOrb ||
+				item.name.startsWith('Rusted');
+		
+			if (!isMnMItem) continue;
+		
 			/*
-			 * IMPORTANT:
-			 * The entire battle is running the Mix and Mega engine.
-			 *
-			 * Therefore slots 1-5 must not be allowed to hold an
-			 * MnM transformation item, or the MnM engine would also
-			 * transform them.
-			 *
-			 * Reserve those items for slot 6.
+			 * This mirrors the native-item exemption used by
+			 * Showdown's real Mix and Mega validator.
 			 */
-			for (let i = 0; i < 5; i++) {
-				const item = this.dex.items.get(team[i].item);
-
-				const isMnMTransformationItem =
-					!!item.megaStone ||
-					!!item.isPrimalOrb ||
-					!!item.forcedForme ||
-					!!item.onDrive ||
-					!!item.onMemory ||
-					!!(item.onPlate && !item.zMove) ||
-					item.name.startsWith('Rusted');
-
-				if (isMnMTransformationItem) {
-					problems.push(
-						`Slot ${i + 1} (${SLOT_NAMES[i]}) cannot use ` +
-						`${item.name}; Mix and Mega transformation items are ` +
-						`reserved for slot 6.`
-					);
-				}
-			}
+			const isNativeFormeItem =
+				(
+					item.itemUser?.includes(species.name) ||
+					item.forcedForme === species.name
+				) &&
+				!item.megaStone &&
+				!item.isPrimalOrb;
+		
+			if (isNativeFormeItem) continue;
+		
+			problems.push(
+				`Slot ${i + 1} (${SLOT_NAMES[i]}) cannot use ${item.name} ` +
+				`as a Mix and Mega transformation item; only slot 6 can use it that way.`
+			);
+		}
 
 			return problems.length ? problems : undefined;
 		},
