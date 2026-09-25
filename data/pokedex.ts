@@ -1,3 +1,8 @@
+import { TYPEN_FORMS } from './typen-data';
+
+const OTHER_FORMES = TYPEN_FORMS
+    .filter(form => form.id !== 'typen')
+    .map(form => form.name);
 export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	bulbasaur: {
 		num: 1,
@@ -21069,10 +21074,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		gen: 5,
 	},
 	
-import { TYPEN_FORMS } from './typen-data';
-
-export const Pokedex:
-	import('../../../sim/dex-species').ModdedSpeciesDataTable = {};
 
 const OTHER_FORMES = TYPEN_FORMS
 	.filter(form => form.id !== 'typen')
@@ -21084,7 +21085,7 @@ const OTHER_FORMES = TYPEN_FORMS
  * Normal/Fire is only being used as the internal Showdown base forme.
  * It isn't intended to be "more normal" than the other Typens.
  */
-Pokedex.typen = {
+typen: {
 	num: 2000,
 	name: 'Typen',
 
@@ -21125,6 +21126,7 @@ Pokedex.typen = {
 /*
  * Generate every other dual-type Typen.
  */
+};
 for (const form of TYPEN_FORMS) {
 	if (form.id === 'typen') continue;
 
@@ -21161,4 +21163,3 @@ for (const form of TYPEN_FORMS) {
 		isNonstandard: null,
 	};
 }
-};
