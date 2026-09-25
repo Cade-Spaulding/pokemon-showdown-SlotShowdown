@@ -1,4 +1,4 @@
-import { TYPEN_FORMS } from '.mods/typen-data';
+import { TYPEN_FORMS } from '.mods/championsfakemons/typen-data';
 
 const OTHER_FORMES = TYPEN_FORMS
     .filter(form => form.id !== 'typen')
