@@ -480,6 +480,9 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 				'VGC Timer',
 				'Open Team Sheets',
 			],
+				unbanlist: [
+		"Typen",
+	],
 		},
 ];
 
