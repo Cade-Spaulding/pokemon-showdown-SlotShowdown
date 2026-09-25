@@ -21075,9 +21075,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	
 
-const OTHER_FORMES = TYPEN_FORMS
-	.filter(form => form.id !== 'typen')
-	.map(form => form.name);
 
 /*
  * Base entry.
@@ -21121,7 +21118,7 @@ typen: {
 		'Typen',
 		...OTHER_FORMES,
 	],
-};
+},
 
 /*
  * Generate every other dual-type Typen.
