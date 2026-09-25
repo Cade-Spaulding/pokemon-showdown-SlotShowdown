@@ -329,8 +329,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		battle: { trunc: Math.trunc },
 		ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 50'],
 	},
-	section: 'Champions',
-		},
 		{
 			name: '[Gen 9 Champions] VGC 2026 Reg M-C + Fakemons',
 			desc: `Pokémon Champions VGC 2026 Regulation M-C with Additional Fakemons.`,
