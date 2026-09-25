@@ -1,5 +1,5 @@
 'use strict';
-
+exports.noguestsecurity = true;
 /**
  * The server port - the port to run Pokemon Showdown under
  *
