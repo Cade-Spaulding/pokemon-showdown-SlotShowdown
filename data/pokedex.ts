@@ -21078,7 +21078,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 		otherFormes: [
 			'Typen-Normal-Water',
 			'Typen-Normal-Electric',
@@ -21400,7 +21400,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typennormalelectric: {
 		num: 2000,
@@ -21413,7 +21413,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typennormalgrass: {
 		num: 2000,
@@ -21426,7 +21426,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typennormalice: {
 		num: 2000,
@@ -21439,7 +21439,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typennormalfighting: {
 		num: 2000,
@@ -21452,7 +21452,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typennormalpoison: {
 		num: 2000,
@@ -21465,7 +21465,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typennormalground: {
 		num: 2000,
@@ -21478,7 +21478,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typennormalflying: {
 		num: 2000,
@@ -21491,7 +21491,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typennormalpsychic: {
 		num: 2000,
@@ -21504,7 +21504,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typennormalbug: {
 		num: 2000,
@@ -21517,7 +21517,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typennormalrock: {
 		num: 2000,
@@ -21530,7 +21530,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typennormalghost: {
 		num: 2000,
@@ -21543,7 +21543,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typennormaldragon: {
 		num: 2000,
@@ -21556,7 +21556,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typennormaldark: {
 		num: 2000,
@@ -21569,7 +21569,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typennormalsteel: {
 		num: 2000,
@@ -21582,7 +21582,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typennormalfairy: {
 		num: 2000,
@@ -21595,7 +21595,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfirewater: {
 		num: 2000,
@@ -21608,7 +21608,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfireelectric: {
 		num: 2000,
@@ -21621,7 +21621,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfiregrass: {
 		num: 2000,
@@ -21634,7 +21634,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfireice: {
 		num: 2000,
@@ -21647,7 +21647,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfirefighting: {
 		num: 2000,
@@ -21660,7 +21660,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfirepoison: {
 		num: 2000,
@@ -21673,7 +21673,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfireground: {
 		num: 2000,
@@ -21686,7 +21686,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfireflying: {
 		num: 2000,
@@ -21699,7 +21699,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfirepsychic: {
 		num: 2000,
@@ -21712,7 +21712,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfirebug: {
 		num: 2000,
@@ -21725,7 +21725,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfirerock: {
 		num: 2000,
@@ -21738,7 +21738,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfireghost: {
 		num: 2000,
@@ -21751,7 +21751,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfiredragon: {
 		num: 2000,
@@ -21764,7 +21764,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfiredark: {
 		num: 2000,
@@ -21777,7 +21777,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfiresteel: {
 		num: 2000,
@@ -21790,7 +21790,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfirefairy: {
 		num: 2000,
@@ -21803,7 +21803,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenwaterelectric: {
 		num: 2000,
@@ -21816,7 +21816,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenwatergrass: {
 		num: 2000,
@@ -21829,7 +21829,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenwaterice: {
 		num: 2000,
@@ -21842,7 +21842,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenwaterfighting: {
 		num: 2000,
@@ -21855,7 +21855,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenwaterpoison: {
 		num: 2000,
@@ -21868,7 +21868,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenwaterground: {
 		num: 2000,
@@ -21881,7 +21881,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenwaterflying: {
 		num: 2000,
@@ -21894,7 +21894,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenwaterpsychic: {
 		num: 2000,
@@ -21907,7 +21907,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenwaterbug: {
 		num: 2000,
@@ -21920,7 +21920,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenwaterrock: {
 		num: 2000,
@@ -21933,7 +21933,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenwaterghost: {
 		num: 2000,
@@ -21946,7 +21946,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenwaterdragon: {
 		num: 2000,
@@ -21959,7 +21959,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenwaterdark: {
 		num: 2000,
@@ -21972,7 +21972,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenwatersteel: {
 		num: 2000,
@@ -21985,7 +21985,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenwaterfairy: {
 		num: 2000,
@@ -21998,7 +21998,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenelectricgrass: {
 		num: 2000,
@@ -22011,7 +22011,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenelectricice: {
 		num: 2000,
@@ -22024,7 +22024,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenelectricfighting: {
 		num: 2000,
@@ -22037,7 +22037,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenelectricpoison: {
 		num: 2000,
@@ -22050,7 +22050,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenelectricground: {
 		num: 2000,
@@ -22063,7 +22063,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenelectricflying: {
 		num: 2000,
@@ -22076,7 +22076,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenelectricpsychic: {
 		num: 2000,
@@ -22089,7 +22089,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenelectricbug: {
 		num: 2000,
@@ -22102,7 +22102,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenelectricrock: {
 		num: 2000,
@@ -22115,7 +22115,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenelectricghost: {
 		num: 2000,
@@ -22128,7 +22128,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenelectricdragon: {
 		num: 2000,
@@ -22141,7 +22141,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenelectricdark: {
 		num: 2000,
@@ -22154,7 +22154,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenelectricsteel: {
 		num: 2000,
@@ -22167,7 +22167,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenelectricfairy: {
 		num: 2000,
@@ -22180,7 +22180,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengrassice: {
 		num: 2000,
@@ -22193,7 +22193,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengrassfighting: {
 		num: 2000,
@@ -22206,7 +22206,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengrasspoison: {
 		num: 2000,
@@ -22219,7 +22219,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengrassground: {
 		num: 2000,
@@ -22232,7 +22232,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengrassflying: {
 		num: 2000,
@@ -22245,7 +22245,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengrasspsychic: {
 		num: 2000,
@@ -22258,7 +22258,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengrassbug: {
 		num: 2000,
@@ -22271,7 +22271,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengrassrock: {
 		num: 2000,
@@ -22284,7 +22284,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengrassghost: {
 		num: 2000,
@@ -22297,7 +22297,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengrassdragon: {
 		num: 2000,
@@ -22310,7 +22310,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengrassdark: {
 		num: 2000,
@@ -22323,7 +22323,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengrasssteel: {
 		num: 2000,
@@ -22336,7 +22336,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengrassfairy: {
 		num: 2000,
@@ -22349,7 +22349,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenicefighting: {
 		num: 2000,
@@ -22362,7 +22362,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenicepoison: {
 		num: 2000,
@@ -22375,7 +22375,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typeniceground: {
 		num: 2000,
@@ -22388,7 +22388,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typeniceflying: {
 		num: 2000,
@@ -22401,7 +22401,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenicepsychic: {
 		num: 2000,
@@ -22414,7 +22414,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenicebug: {
 		num: 2000,
@@ -22427,7 +22427,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenicerock: {
 		num: 2000,
@@ -22440,7 +22440,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typeniceghost: {
 		num: 2000,
@@ -22453,7 +22453,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenicedragon: {
 		num: 2000,
@@ -22466,7 +22466,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenicedark: {
 		num: 2000,
@@ -22479,7 +22479,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenicesteel: {
 		num: 2000,
@@ -22492,7 +22492,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenicefairy: {
 		num: 2000,
@@ -22505,7 +22505,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfightingpoison: {
 		num: 2000,
@@ -22518,7 +22518,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfightingground: {
 		num: 2000,
@@ -22531,7 +22531,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfightingflying: {
 		num: 2000,
@@ -22544,7 +22544,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfightingpsychic: {
 		num: 2000,
@@ -22557,7 +22557,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfightingbug: {
 		num: 2000,
@@ -22570,7 +22570,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfightingrock: {
 		num: 2000,
@@ -22583,7 +22583,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfightingghost: {
 		num: 2000,
@@ -22596,7 +22596,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfightingdragon: {
 		num: 2000,
@@ -22609,7 +22609,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfightingdark: {
 		num: 2000,
@@ -22622,7 +22622,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfightingsteel: {
 		num: 2000,
@@ -22635,7 +22635,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenfightingfairy: {
 		num: 2000,
@@ -22648,7 +22648,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenpoisonground: {
 		num: 2000,
@@ -22661,7 +22661,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenpoisonflying: {
 		num: 2000,
@@ -22674,7 +22674,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenpoisonpsychic: {
 		num: 2000,
@@ -22687,7 +22687,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenpoisonbug: {
 		num: 2000,
@@ -22700,7 +22700,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenpoisonrock: {
 		num: 2000,
@@ -22713,7 +22713,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenpoisonghost: {
 		num: 2000,
@@ -22726,7 +22726,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenpoisondragon: {
 		num: 2000,
@@ -22739,7 +22739,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenpoisondark: {
 		num: 2000,
@@ -22752,7 +22752,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenpoisonsteel: {
 		num: 2000,
@@ -22765,7 +22765,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenpoisonfairy: {
 		num: 2000,
@@ -22778,7 +22778,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengroundflying: {
 		num: 2000,
@@ -22791,7 +22791,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengroundpsychic: {
 		num: 2000,
@@ -22804,7 +22804,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengroundbug: {
 		num: 2000,
@@ -22817,7 +22817,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengroundrock: {
 		num: 2000,
@@ -22830,7 +22830,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengroundghost: {
 		num: 2000,
@@ -22843,7 +22843,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengrounddragon: {
 		num: 2000,
@@ -22856,7 +22856,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengrounddark: {
 		num: 2000,
@@ -22869,7 +22869,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengroundsteel: {
 		num: 2000,
@@ -22882,7 +22882,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typengroundfairy: {
 		num: 2000,
@@ -22895,7 +22895,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenflyingpsychic: {
 		num: 2000,
@@ -22908,7 +22908,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenflyingbug: {
 		num: 2000,
@@ -22921,7 +22921,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenflyingrock: {
 		num: 2000,
@@ -22934,7 +22934,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenflyingghost: {
 		num: 2000,
@@ -22947,7 +22947,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenflyingdragon: {
 		num: 2000,
@@ -22960,7 +22960,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenflyingdark: {
 		num: 2000,
@@ -22973,7 +22973,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenflyingsteel: {
 		num: 2000,
@@ -22986,7 +22986,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenflyingfairy: {
 		num: 2000,
@@ -22999,7 +22999,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenpsychicbug: {
 		num: 2000,
@@ -23012,7 +23012,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenpsychicrock: {
 		num: 2000,
@@ -23025,7 +23025,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenpsychicghost: {
 		num: 2000,
@@ -23038,7 +23038,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenpsychicdragon: {
 		num: 2000,
@@ -23051,7 +23051,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenpsychicdark: {
 		num: 2000,
@@ -23064,7 +23064,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenpsychicsteel: {
 		num: 2000,
@@ -23077,7 +23077,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenpsychicfairy: {
 		num: 2000,
@@ -23090,7 +23090,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenbugrock: {
 		num: 2000,
@@ -23103,7 +23103,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenbugghost: {
 		num: 2000,
@@ -23116,7 +23116,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenbugdragon: {
 		num: 2000,
@@ -23129,7 +23129,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenbugdark: {
 		num: 2000,
@@ -23142,7 +23142,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenbugsteel: {
 		num: 2000,
@@ -23155,7 +23155,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenbugfairy: {
 		num: 2000,
@@ -23168,7 +23168,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenrockghost: {
 		num: 2000,
@@ -23181,7 +23181,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenrockdragon: {
 		num: 2000,
@@ -23194,7 +23194,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenrockdark: {
 		num: 2000,
@@ -23207,7 +23207,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenrocksteel: {
 		num: 2000,
@@ -23220,7 +23220,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenrockfairy: {
 		num: 2000,
@@ -23233,7 +23233,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenghostdragon: {
 		num: 2000,
@@ -23246,7 +23246,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenghostdark: {
 		num: 2000,
@@ -23259,7 +23259,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenghoststeel: {
 		num: 2000,
@@ -23272,7 +23272,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typenghostfairy: {
 		num: 2000,
@@ -23285,7 +23285,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typendragondark: {
 		num: 2000,
@@ -23298,7 +23298,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typendragonsteel: {
 		num: 2000,
@@ -23311,7 +23311,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typendragonfairy: {
 		num: 2000,
@@ -23324,7 +23324,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typendarksteel: {
 		num: 2000,
@@ -23337,7 +23337,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typendarkfairy: {
 		num: 2000,
@@ -23350,7 +23350,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 	typensteelfairy: {
 		num: 2000,
@@ -23363,6 +23363,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		eggGroups: ['Undiscovered'],
 		gen: 9,
-		isNonstandard: null,
+		isNonstandard: 'Custom',
 	},
 };
