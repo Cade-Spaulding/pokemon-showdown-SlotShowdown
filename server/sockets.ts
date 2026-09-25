@@ -383,7 +383,6 @@ export class ServerStream extends Streams.ObjectReadWriteStream<string> {
 
 		const sockjs: typeof import('sockjs') = (require as any)('sockjs');
 		const options: import('sockjs').ServerOptions & { faye_server_options?: { [key: string]: any } } = {
-			sockjs_url: `//play.pokemonshowdown.com/js/lib/sockjs-1.4.0-nwjsfix.min.js`,
 			prefix: '/showdown',
 			log(severity: string, message: string) {
 				if (severity === 'error') console.log(`ERROR: ${message}`);
