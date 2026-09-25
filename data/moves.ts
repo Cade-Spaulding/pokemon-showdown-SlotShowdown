@@ -21313,7 +21313,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Normal",
 		gen: 9,
-		isNonstandard: null,
 	},
 	firestrike: {
 		num: -2001,
@@ -21328,7 +21327,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Fire",
 		gen: 9,
-		isNonstandard: null,
 	},
 	waterstrike: {
 		num: -2002,
@@ -21343,7 +21341,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Water",
 		gen: 9,
-		isNonstandard: null,
 	},
 	electricstrike: {
 		num: -2003,
@@ -21358,7 +21355,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Electric",
 		gen: 9,
-		isNonstandard: null,
 	},
 	grassstrike: {
 		num: -2004,
@@ -21373,7 +21369,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Grass",
 		gen: 9,
-		isNonstandard: null,
 	},
 	icestrike: {
 		num: -2005,
@@ -21388,7 +21383,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Ice",
 		gen: 9,
-		isNonstandard: null,
 	},
 	fightingstrike: {
 		num: -2006,
@@ -21403,7 +21397,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Fighting",
 		gen: 9,
-		isNonstandard: null,
 	},
 	poisonstrike: {
 		num: -2007,
@@ -21418,7 +21411,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Poison",
 		gen: 9,
-		isNonstandard: null,
 	},
 	groundstrike: {
 		num: -2008,
@@ -21433,7 +21425,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Ground",
 		gen: 9,
-		isNonstandard: null,
 	},
 	flyingstrike: {
 		num: -2009,
@@ -21448,7 +21439,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Flying",
 		gen: 9,
-		isNonstandard: null,
 	},
 	psychicstrike: {
 		num: -2010,
@@ -21463,7 +21453,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Psychic",
 		gen: 9,
-		isNonstandard: null,
 	},
 	bugstrike: {
 		num: -2011,
@@ -21478,7 +21467,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Bug",
 		gen: 9,
-		isNonstandard: null,
 	},
 	rockstrike: {
 		num: -2012,
@@ -21493,7 +21481,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Rock",
 		gen: 9,
-		isNonstandard: null,
 	},
 	ghoststrike: {
 		num: -2013,
@@ -21508,7 +21495,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Ghost",
 		gen: 9,
-		isNonstandard: null,
 	},
 	dragonstrike: {
 		num: -2014,
@@ -21523,7 +21509,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Dragon",
 		gen: 9,
-		isNonstandard: null,
 	},
 	darkstrike: {
 		num: -2015,
@@ -21538,7 +21523,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Dark",
 		gen: 9,
-		isNonstandard: null,
 	},
 	steelstrike: {
 		num: -2016,
@@ -21553,7 +21537,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Steel",
 		gen: 9,
-		isNonstandard: null,
 	},
 	fairystrike: {
 		num: -2017,
@@ -21568,6 +21551,5 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Fairy",
 		gen: 9,
-		isNonstandard: null,
 	},
 };
