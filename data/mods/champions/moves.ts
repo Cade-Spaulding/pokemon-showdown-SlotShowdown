@@ -1139,4 +1139,22 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		inherit: true,
 		isNonstandard: "Past",
 	},
+	hyperdrive: {
+	num: -1001,
+	accuracy: true,
+	basePower: 0,
+	category: "Status",
+	name: "Hyperdrive",
+	pp: 1,
+	noPPBoosts: true,
+	priority: 0,
+	flags: { snatch: 1 },
+	boosts: {
+		atk: 2,
+		spe: 2,
+	},
+	target: "self",
+	type: "Normal",
+	isNonstandard: "Custom",
+},
 };
