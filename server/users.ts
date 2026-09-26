@@ -794,25 +794,26 @@ export class User extends Chat.MessageContext {
 		const registered = (userType !== '1');
 
 		const conflictUser = users.get(userid);
-		if (conflictUser) {
-			// unregistered users can only merge in limited situations
-			let canMerge = registered && conflictUser.registered;
-			if (
-				!registered && !conflictUser.registered && conflictUser.latestIp === this.latestIp &&
-				!conflictUser.connected
-			) {
-				canMerge = true;
-			}
-			if (!canMerge) {
-				if (registered && !conflictUser.registered) {
-					// user has just registered; don't merge just to be safe
-					if (conflictUser !== this) conflictUser.resetName();
-				} else {
-					this.send(`|nametaken|${name}|Someone is already using the name "${conflictUser.name}".`);
-					return false;
-				}
-			}
-		}
+if (conflictUser && conflictUser !== this) {
+    // SlotShowdown guest-name behavior:
+    // offline unregistered names are free for anyone to claim.
+    if (!registered && !conflictUser.registered && !conflictUser.connected) {
+        conflictUser.destroy();
+    } else {
+        let canMerge = registered && conflictUser.registered;
+
+        if (!canMerge) {
+            if (registered && !conflictUser.registered) {
+                conflictUser.resetName();
+            } else {
+                this.send(
+                    `|nametaken|${name}|Someone is already using the name "${conflictUser.name}".`
+                );
+                return false;
+            }
+        }
+    }
+}
 
 		// user types:
 		//   1: unregistered user
