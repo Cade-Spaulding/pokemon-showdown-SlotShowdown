@@ -10,3 +10,9 @@ for (const form of TYPEN_FORMS) {
 		isNonstandard: null,
 	};
 }
+
+FormatsData.struggly = {
+	tier: 'OU',
+	doublesTier: 'DOU',
+	isNonstandard: null,
+};
