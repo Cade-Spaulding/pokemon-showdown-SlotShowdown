@@ -23365,4 +23365,25 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		gen: 9,
 		isNonstandard: 'Custom',
 	},
+	struggly: {
+	num: -1001,
+	name: "Struggly",
+	types: ["Normal"],
+	baseStats: {
+		hp: 5,
+		atk: 250,
+		def: 250,
+		spa: 5,
+		spd: 250,
+		spe: 70,
+	},
+	abilities: {
+		0: "Oblivious",
+	},
+	heightm: 1,
+	weightkg: 10,
+	color: "Gray",
+	eggGroups: ["Undiscovered"],
+	isNonstandard: "Custom",
+},
 };
