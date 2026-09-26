@@ -104215,6 +104215,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			fairystrike: ["9L1"],
 		},
 	},
-
+	struggly: {
+	learnset: {
+		hyperdrive: ["9L1"],
+	},
+},
 };
 	
