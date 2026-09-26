@@ -6257,4 +6257,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	typen: {
 	tier: "Illegal",
 },
+		struggly: {
+	tier: "Illegal",
+},
 };
