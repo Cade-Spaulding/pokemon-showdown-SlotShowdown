@@ -1155,6 +1155,5 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	},
 	target: "self",
 	type: "Normal",
-	isNonstandard: "Custom",
 },
 };
