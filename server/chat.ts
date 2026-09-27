@@ -1163,9 +1163,13 @@ export class CommandContext extends MessageContext {
 						throw new Chat.ErrorMessage(this.TL`You are ${lockType} and can't talk in chat. ${lockExpiration}`);
 					}
 				}
-				if (!room.persist && !room.roomid.startsWith('help-') && !(user.registered || user.autoconfirmed)) {
-					this.sendReply(
-						this.TL`|html|<div class="message-error">You must be registered to chat in temporary rooms (like battles).</div>` +
+ if (
+   !room.persist &&
+   room.type !== 'battle' &&
+   !room.roomid.startsWith('help-') &&
+   !(user.registered || user.autoconfirmed)
+ ) {					this.sendReply(
+						this.TL`|html|<div class="message-error">You must be registered to chat in temporary rooms.</div>` +
 						this.TL`You may register in the <button name="openOptions"><i class="fa fa-cog"></i> Options</button> menu.`
 					);
 					throw new Chat.Interruption();
