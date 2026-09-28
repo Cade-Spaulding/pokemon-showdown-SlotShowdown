@@ -5708,7 +5708,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			return this.chainModify(2);
 		},
 		flags: {},
-		name: "Healing Factor",
+		name: "Surivalist",
 		rating: 4,
 		num: -4,
 		isNonstandard: "Custom",
