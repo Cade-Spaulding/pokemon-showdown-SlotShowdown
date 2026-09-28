@@ -23378,7 +23378,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		spe: 70,
 	},
 	abilities: {
-		0: "Oblivious",
+		0: "Oblivious", 1: "Survivalist"
 	},
 	heightm: 1,
 	weightkg: 10,
