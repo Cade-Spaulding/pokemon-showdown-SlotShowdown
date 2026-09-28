@@ -5703,14 +5703,14 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		num: -3,
 	},
-		Survivalist: {
-		onTryHeal(damage, target, source, effect) {
-			return this.chainModify(2);
-		},
-		flags: {},
-		name: "Surivalist",
-		rating: 4,
-		num: -4,
-		isNonstandard: "Custom",
-	},
+survivalist: {
+    onTryHeal(damage, target, source, effect) {
+        return this.chainModify(2);
+    },
+    flags: {},
+    name: "Survivalist",
+    rating: 4,
+    num: -4,
+    isNonstandard: "Custom",
+},
 };
