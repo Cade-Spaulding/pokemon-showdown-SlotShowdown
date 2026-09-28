@@ -7714,4 +7714,100 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			shortDesc: "Nearly always goes first. Always crits.",
 		},
 	},
+		// Slot Showdown custom moves
+	normalstrike: {
+		name: "Normal Strike",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	firestrike: {
+		name: "Fire Strike",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	waterstrike: {
+		name: "Water Strike",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	electricstrike: {
+		name: "Electric Strike",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	grassstrike: {
+		name: "Grass Strike",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	icestrike: {
+		name: "Ice Strike",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	fightingstrike: {
+		name: "Fighting Strike",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	poisonstrike: {
+		name: "Poison Strike",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	groundstrike: {
+		name: "Ground Strike",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	flyingstrike: {
+		name: "Flying Strike",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	psychicstrike: {
+		name: "Psychic Strike",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	bugstrike: {
+		name: "Bug Strike",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	rockstrike: {
+		name: "Rock Strike",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	ghoststrike: {
+		name: "Ghost Strike",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	dragonstrike: {
+		name: "Dragon Strike",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	darkstrike: {
+		name: "Dark Strike",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	steelstrike: {
+		name: "Steel Strike",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	fairystrike: {
+		name: "Fairy Strike",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	hyperdrive: {
+		name: "Hyperdrive",
+		desc: "Raises the user's Attack and Speed by 2 stages.",
+		shortDesc: "Raises the user's Attack and Speed by 2.",
+	},
 };
