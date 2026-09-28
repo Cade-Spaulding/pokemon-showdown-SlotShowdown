@@ -2318,8 +2318,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 
 		activate: "  {POKEMON} extends {MOVE} by 2 turns!",
 	},
-		healingfactor: {
-		name: "Healing Factor",
+		survivalist: {
+		name: "Survivalist",
 		desc: "This Pokemon restores twice as much HP from healing effects.",
 		shortDesc: "This Pokemon restores twice as much HP from healing effects.",
 	},
