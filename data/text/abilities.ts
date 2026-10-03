@@ -2324,8 +2324,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		shortDesc: "This Pokemon restores twice as much HP from healing effects.",
 	},
 	
-chromaticshift: {
-    name: "Chromatic Shift",
+lightanddark: {
+    name: "Light And Dark",
     desc: "This Pokemon's type changes to match the type of the move it is about to use. (pre-nerf protean)",
     shortDesc: "Changes type to match each move used. (pre-nerf protean)",
 },
