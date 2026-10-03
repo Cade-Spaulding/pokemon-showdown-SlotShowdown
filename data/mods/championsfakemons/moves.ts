@@ -1,7 +1,14 @@
 import { TYPEN_TYPES, typenStrikeID } from './typen-data';
 
-export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {};
-
+export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
+    spark: {inherit: true, isNonstandard: null},
+    lunarblessing: {inherit: true, isNonstandard: null},
+    confusion: {inherit: true, isNonstandard: null},
+    headbutt: {inherit: true, isNonstandard: null},
+    metronome: {inherit: true, isNonstandard: null},
+    absorb: {inherit: true, isNonstandard: null},
+    tailglow: {inherit: true, isNonstandard: null},
+};
 for (let i = 0; i < TYPEN_TYPES.length; i++) {
 	const type = TYPEN_TYPES[i];
 	const id = typenStrikeID(type);
