@@ -23391,7 +23391,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	
 shirkuroo: {
     num: -1002,
-    name: "Chromon",
+    name: "Shirkuroo",
     types: ["Normal","Dark"],
     gender: "N",
     baseStats: {
