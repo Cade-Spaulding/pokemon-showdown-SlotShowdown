@@ -6260,4 +6260,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		struggly: {
 	tier: "Illegal",
 },
+	shirkuroo: {
+	tier: "Illegal",
+},
 };
