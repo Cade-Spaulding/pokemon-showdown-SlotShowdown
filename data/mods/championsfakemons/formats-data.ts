@@ -18,7 +18,7 @@ FormatsData.struggly = {
 };
 
 
-FormatsData.shiruroo = {
+FormatsData.shirkuroo = {
 	tier: 'OU',
 	doublesTier: 'DOU',
 	isNonstandard: null,
