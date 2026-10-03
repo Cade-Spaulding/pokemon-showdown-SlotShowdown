@@ -5713,4 +5713,39 @@ survivalist: {
     num: -4,
     isNonstandard: "Custom",
 },
+	
+lightanddark: {
+    onPrepareHit(source, target, move) {
+        if (
+            move.hasBounced ||
+            move.flags['futuremove'] ||
+            move.sourceEffect === 'snatch' ||
+            move.callsMove
+        ) return;
+
+        const type = move.type;
+
+        if (
+            type &&
+            type !== '???' &&
+            source.getTypes().join() !== type
+        ) {
+            if (!source.setType(type)) return;
+
+            this.add(
+                '-start',
+                source,
+                'typechange',
+                type,
+                '[from] ability: Light And Dark'
+            );
+        }
+    },
+    flags: {},
+    name: "Light And Dark",
+    rating: 4,
+    num: -5,
+    isNonstandard: "Custom",
+},
+
 };
