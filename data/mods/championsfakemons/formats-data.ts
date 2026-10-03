@@ -16,3 +16,10 @@ FormatsData.struggly = {
 	doublesTier: 'DOU',
 	isNonstandard: null,
 };
+
+
+FormatsData.shiruroo = {
+	tier: 'OU',
+	doublesTier: 'DOU',
+	isNonstandard: null,
+};
