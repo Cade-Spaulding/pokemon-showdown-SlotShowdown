@@ -23403,8 +23403,8 @@ shirkuroo: {
         spe: 71,
     },
     abilities: {
-		 0: "triage"
-        1: "lightanddark",
+		 0: "triage",
+        1: "lightanddark"
     },
     heightm: 1.5,
     weightkg: 45,
