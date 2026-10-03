@@ -23388,4 +23388,30 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	weightkg: 50,
 	isNonstandard: "Custom",
 },
+	
+shirkuroo: {
+    num: -1002,
+    name: "Chromon",
+    types: ["Normal","Dark"],
+    gender: "N",
+    baseStats: {
+        hp: 78,
+        atk: 80,
+        def: 95,
+        spa: 101,
+        spd: 125,
+        spe: 71,
+    },
+    abilities: {
+		 0: "triage"
+        1: "lightanddark",
+    },
+    heightm: 1.5,
+    weightkg: 45,
+    color: "Purple",
+    eggGroups: ["Undiscovered"],
+    gen: 9,
+    isNonstandard: "Custom",
+},
+
 };
