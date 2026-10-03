@@ -111,4 +111,8 @@ survivalist: {
     num: -4,
     isNonstandard: null,
 },
+	lightanddark: {
+    inherit: true,
+    isNonstandard: null,
+},
 };
