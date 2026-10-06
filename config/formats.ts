@@ -343,7 +343,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 				'Open Team Sheets',
 			],
 				unbanlist: [
-		"Typen","struggly","shirkuroo"
+		"Typen","struggly","shirkuroo","gamblimp"
 	],
 		},
 
