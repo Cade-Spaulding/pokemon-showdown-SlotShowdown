@@ -23420,9 +23420,9 @@ gamblimp: {
     gender: "N",
     baseStats: {
         hp: 87,
-        atk: 87,
-        def: 117,
-        spa: 77,
+        atk: 117,
+        def: 77,
+        spa: 37,
         spd: 77,
         spe: 127,
     },
