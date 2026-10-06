@@ -8,6 +8,10 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
     metronome: {inherit: true, isNonstandard: null},
     absorb: {inherit: true, isNonstandard: null},
     tailglow: {inherit: true, isNonstandard: null},
+	voltallin: {
+	inherit: true,
+	isNonstandard: null,
+},
 };
 for (let i = 0; i < TYPEN_TYPES.length; i++) {
 	const type = TYPEN_TYPES[i];
