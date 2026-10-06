@@ -21576,7 +21576,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	basePower: 107,
 	category: "Physical",
 	name: "Volt' all in",
-	pp: 8,
+	pp: 5,
 	priority: 0,
 	flags: {
 		contact: 1,
