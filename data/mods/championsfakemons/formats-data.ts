@@ -23,3 +23,8 @@ FormatsData.shirkuroo = {
 	doublesTier: 'DOU',
 	isNonstandard: null,
 };
+FormatsData.gamblimp = {
+	tier: 'OU',
+	doublesTier: 'DOU',
+	isNonstandard: null,
+};
