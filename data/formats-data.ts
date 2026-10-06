@@ -6263,4 +6263,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	shirkuroo: {
 	tier: "Illegal",
 },
+		gamblimp: {
+	tier: "Illegal",
+},
 };
