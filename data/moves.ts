@@ -21570,4 +21570,30 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	type: "Normal",
 	isNonstandard: "Custom",
 },
+	voltallin: {
+	num: -1002,
+	accuracy: true,
+	basePower: 107,
+	category: "Physical",
+	name: "Volt' all in",
+	pp: 8,
+	priority: 0,
+	flags: {
+		contact: 1,
+		protect: 1,
+		mirror: 1,
+		metronome: 1,
+	},
+	critRatio: 2,
+	self: {
+		chance: 30,
+		boosts: {
+			atk: -1,
+		},
+	},
+	target: "allAdjacentFoes",
+	type: "Electric",
+	gen: 9,
+	isNonstandard: "Custom",
+},
 };
