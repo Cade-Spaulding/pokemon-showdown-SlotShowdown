@@ -23413,5 +23413,28 @@ shirkuroo: {
     gen: 9,
     isNonstandard: "Custom",
 },
-
+gamblimp: {
+    num: -1003,
+    name: "Gamblimp",
+    types: ["Electric","Dark"],
+    gender: "N",
+    baseStats: {
+        hp: 87,
+        atk: 87,
+        def: 117,
+        spa: 77,
+        spd: 77,
+        spe: 127,
+    },
+    abilities: {
+		 0: "Hustle",
+      1: "Super Luck"
+    },
+    heightm: 1.5,
+    weightkg: 45,
+    color: "Purple",
+    eggGroups: ["Undiscovered"],
+    gen: 9,
+    isNonstandard: "Custom",
+},
 };
