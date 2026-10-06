@@ -7810,4 +7810,9 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Raises the user's Attack and Speed by 2 stages.",
 		shortDesc: "Raises the user's Attack and Speed by 2.",
 	},
+		voltallin: {
+		name: "Volt' All In",
+		desc: "High critical hit ratio. Hits foes. 30% chance to lower user's Atk by 1.",
+		shortDesc: "High critical hit ratio. Hits foes. 30% chance to lower user's Atk by 1.",
+	},
 };
