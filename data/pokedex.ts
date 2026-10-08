@@ -23438,8 +23438,8 @@ gamblimp: {
     isNonstandard: "Custom",
 },
 	Wyrspark: {
-    num: -1003,
-    name: "wyrspark",
+    num: -1004,
+    name: "Wyrspark",
     types: ["Electric","Ground"],
     gender: "N",
     baseStats: {
@@ -23454,6 +23454,29 @@ gamblimp: {
 		 0: "Static",
       1: "Earth Eater",
 		 H: "Electromorphosis
+    },
+    heightm: 1.5,
+    weightkg: 45,
+    color: "Purple",
+    eggGroups: ["Undiscovered"],
+    gen: 9,
+    isNonstandard: "Custom",
+},
+	tidasmith: {
+    num: -1005,
+    name: "Tidasmith",
+    types: ["Fire","Water"],
+    gender: "N",
+    baseStats: {
+        hp: 105,
+        atk: 60,
+        def: 130,
+        spa: 65,
+        spd: 110,
+        spe: 30,
+    },
+    abilities: {
+      0: "Earth Eater",
     },
     heightm: 1.5,
     weightkg: 45,
