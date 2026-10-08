@@ -21656,8 +21656,8 @@ risingknifes: {
 soulstealing8starstrike: {
 		num: -1006,
 		accuracy: true,
-		basePower: 120,
-		category: "Physical",
+		basePower: 100,
+		category: "Special",
 		isNonstandard: "Past",
 		name: "Soul-Stealing 8-Star Strike",
 		pp: 1,
@@ -21665,7 +21665,7 @@ soulstealing8starstrike: {
 		priority: 0,
 		flags: { contact: 1 },
 		target: "normal",
-		type: "Ghost",
+		type: "Psychic",
 		contestType: "Cool",
 	},
 };
