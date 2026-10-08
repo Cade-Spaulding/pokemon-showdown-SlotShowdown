@@ -28,3 +28,25 @@ FormatsData.gamblimp = {
 	doublesTier: 'DOU',
 	isNonstandard: null,
 };
+FormatsData.wyrspark = {
+	tier: 'OU',
+	doublesTier: 'DOU',
+	isNonstandard: null,
+};
+
+
+FormatsData.tidasmith = {
+	tier: 'OU',
+	doublesTier: 'DOU',
+	isNonstandard: null,
+};
+FormatsData.scrubbub = {
+	tier: 'OU',
+	doublesTier: 'DOU',
+	isNonstandard: null,
+};
+FormatsData.shedible = {
+	tier: 'OU',
+	doublesTier: 'DOU',
+	isNonstandard: null,
+};
