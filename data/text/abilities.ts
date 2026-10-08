@@ -2329,5 +2329,10 @@ lightanddark: {
     desc: "This Pokemon's type changes to match the type of the move it is about to use. (pre-nerf protean)",
     shortDesc: "Changes type to match each move used. (pre-nerf protean)",
 },
+helmet: {
+    name: "Helmet",
+    desc: "non-Crits against this pokemon deal 75% damage",
+    shortDesc: "non-Crits against this pokemon deal 75% damage",
+},
 
 };
