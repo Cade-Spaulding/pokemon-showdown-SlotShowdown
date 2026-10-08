@@ -6266,4 +6266,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		gamblimp: {
 	tier: "Illegal",
 },
+		wyrspark: {
+	tier: "Illegal",
+},
 };
