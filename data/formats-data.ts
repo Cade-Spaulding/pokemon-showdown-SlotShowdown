@@ -6269,4 +6269,15 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		wyrspark: {
 	tier: "Illegal",
 },
+		tidasmith: {
+	tier: "Illegal",
+},
+
+		scrubbub: {
+	tier: "Illegal",
+},
+	
+		shedible: {
+	tier: "Illegal",
+},
 };
