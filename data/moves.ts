@@ -21661,6 +21661,8 @@ soulstealing8starstrike: {
 		isNonstandard: "Past",
 		name: "Soul-Stealing 8-Star Strike",
 		pp: 1,
+		noPPBoosts: true,
+
 		stealsBoosts: true,
 		priority: 0,
 		flags: { contact: 1 },
