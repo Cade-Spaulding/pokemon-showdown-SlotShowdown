@@ -5751,4 +5751,17 @@ lightanddark: {
     isNonstandard: "Custom",
 },
 
+	helmet: {
+    onSourceModifyDamage(damage, source, target, move) {
+        if (!target.getMoveHitData(move).crit) {
+            return this.chainModify(0.75);
+        }
+    },
+    flags: {breakable: 1},
+    name: "Helmet",
+    rating: 3.5,
+    num: -6,
+    isNonstandard: null,
+},
+
 };
