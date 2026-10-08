@@ -23437,4 +23437,29 @@ gamblimp: {
     gen: 9,
     isNonstandard: "Custom",
 },
+	: {
+    num: -1003,
+    name: "wyrspark",
+    types: ["Electric","Ground"],
+    gender: "N",
+    baseStats: {
+        hp: 67,
+        atk: 111,
+        def: 60,
+        spa: 111,
+        spd: 115,
+        spe: 51,
+    },
+    abilities: {
+		 0: "Static",
+      1: "Earth Eater",
+		 H: "Electromorphosis
+    },
+    heightm: 1.5,
+    weightkg: 45,
+    color: "Purple",
+    eggGroups: ["Undiscovered"],
+    gen: 9,
+    isNonstandard: "Custom",
+},
 };
