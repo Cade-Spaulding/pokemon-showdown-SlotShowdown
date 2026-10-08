@@ -7815,4 +7815,9 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "High critical hit ratio. Hits foes. 30% chance to lower user's Atk by 1.",
 		shortDesc: "High critical hit ratio. Hits foes. 30% chance to lower user's Atk by 1.",
 	},
+	tremor: {
+		name: "Tremor",
+		desc: "Fails if the target did not select a physical attack, special attack, or Me First for use this turn, or if the target moves before the user.",
+		shortDesc: "Usually goes first. Fails if target is not attacking.",
+	},
 };
