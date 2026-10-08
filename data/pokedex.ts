@@ -23493,9 +23493,9 @@ gamblimp: {
     baseStats: {
         hp: 100,
         atk: 48,
-        def: 60,
-        spa: 80,
-        spd: 20,
+        def: 80,
+        spa: 20,
+        spd: 50,
         spe: 45,
     },
     abilities: {
