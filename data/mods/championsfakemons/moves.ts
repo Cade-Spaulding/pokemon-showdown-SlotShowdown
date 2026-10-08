@@ -14,6 +14,12 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 },	tremor: {
 	inherit: true,
 	isNonstandard: null,
+},honeclaws: {
+	inherit: true,
+	isNonstandard: null,
+},soulstealing8starstrike: {
+	inherit: true,
+	isNonstandard: null,
 },
 };
 for (let i = 0; i < TYPEN_TYPES.length; i++) {
