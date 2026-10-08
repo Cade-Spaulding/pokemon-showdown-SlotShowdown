@@ -104501,7 +104501,6 @@ shedible: {
 		imprison: ["9L1"],
 		incinerate: ["9L1"],
 		infestation: ["9L1"],
-		judgement: ["9L1"],
 		karatechop: ["9L1"],
 		kinesis: ["9L1"],
 		lashout: ["9L1"],
