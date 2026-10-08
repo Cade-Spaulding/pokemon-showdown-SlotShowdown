@@ -7820,4 +7820,20 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Fails if the target did not select a physical attack, special attack, or Me First for use this turn, or if the target moves before the user.",
 		shortDesc: "Usually goes first. Fails if target is not attacking.",
 	},
+	risingknifes: {
+		name: "Rising knifes",
+		desc: "Raises the user's Attack by 2 stages.",
+		shortDesc: "Raises the user's Atk by 2.",
+	},
+	hydrohands: {
+		name: "Hydro Hands",
+		desc: "Raises the user's Special Attack by 2 stages.",
+		shortDesc: "Raises the user's Sp. Atk by 2.",
+	},
+	soulstealing8starstrike: {
+	name: "Soul-Stealing 8-Star Strike",
+		desc: "The target's stat stages greater than 0 are stolen from it and applied to the user before dealing damage.",
+		shortDesc: "Steals target's boosts before dealing damage.",
+
+		clearBoost: "  {SOURCE} stole the target's boosted stats!",	},
 };
