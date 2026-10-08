@@ -23437,7 +23437,7 @@ gamblimp: {
     gen: 9,
     isNonstandard: "Custom",
 },
-	: {
+	Wyrspark: {
     num: -1003,
     name: "wyrspark",
     types: ["Electric","Ground"],
