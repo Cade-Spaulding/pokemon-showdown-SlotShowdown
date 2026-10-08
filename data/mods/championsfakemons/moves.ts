@@ -11,6 +11,9 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	voltallin: {
 	inherit: true,
 	isNonstandard: null,
+},	tremor: {
+	inherit: true,
+	isNonstandard: null,
 },
 };
 for (let i = 0; i < TYPEN_TYPES.length; i++) {
