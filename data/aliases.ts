@@ -869,7 +869,6 @@ export const Aliases: import('../sim/dex').AliasesTable = {
 	fairyplate: "Pixie Plate",
 	grassberry: "Rindo Berry",
 	fairyberry: "Roseli Berry",
-	helmet: "Rocky Helmet",
 	goggles: "Safety Goggles",
 	groundberry: "Shuca Berry",
 	flyingplate: "Sky Plate",
