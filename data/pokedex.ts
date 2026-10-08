@@ -23437,7 +23437,7 @@ gamblimp: {
     gen: 9,
     isNonstandard: "Custom",
 },
-	Wyrspark: {
+	wyrspark: {
     num: -1004,
     name: "Wyrspark",
     types: ["Electric","Ground"],
@@ -23453,7 +23453,7 @@ gamblimp: {
     abilities: {
 		 0: "Static",
       1: "Earth Eater",
-		 H: "Electromorphosis
+		 H: "Electromorphosis"
     },
     heightm: 1.5,
     weightkg: 45,
@@ -23477,6 +23477,55 @@ gamblimp: {
     },
     abilities: {
       0: "Earth Eater",
+    },
+    heightm: 1.5,
+    weightkg: 45,
+    color: "Purple",
+    eggGroups: ["Undiscovered"],
+    gen: 9,
+    isNonstandard: "Custom",
+},
+		scrubbub: {
+    num: -1006,
+    name: "Scrubbub",
+    types: ["Bug","Fighting"],
+    gender: "N",
+    baseStats: {
+        hp: 100,
+        atk: 48,
+        def: 60,
+        spa: 80,
+        spd: 20,
+        spe: 45,
+    },
+    abilities: {
+		 0: "Helmet",
+      1: "Moxie",
+    },
+    heightm: 1.5,
+    weightkg: 45,
+    color: "Purple",
+    eggGroups: ["Undiscovered"],
+    gen: 9,
+    isNonstandard: "Custom",
+},
+	shedible: {
+    num: -1007,
+    name: "Shedible",
+    types: ["Bug","Psychic"],
+    gender: "N",
+    baseStats: {
+        hp: 1,
+        atk: 97,
+        def: 50,
+        spa: 120,
+        spd: 50,
+        spe: 102,
+    },
+	maxHP: 1,
+
+    abilities: {
+      0: "Wonder Guard",
     },
     heightm: 1.5,
     weightkg: 45,
