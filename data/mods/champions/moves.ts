@@ -1153,4 +1153,24 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	target: "self",
 	type: "Normal",
 },
+	    spark: {inherit: true, isNonstandard: null},
+    lunarblessing: {inherit: true, isNonstandard: null},
+    confusion: {inherit: true, isNonstandard: null},
+    headbutt: {inherit: true, isNonstandard: null},
+    metronome: {inherit: true, isNonstandard: null},
+    absorb: {inherit: true, isNonstandard: null},
+    tailglow: {inherit: true, isNonstandard: null},
+	voltallin: {
+	inherit: true,
+	isNonstandard: null,
+},	tremor: {
+	inherit: true,
+	isNonstandard: null,
+},honeclaws: {
+	inherit: true,
+	isNonstandard: null,
+},soulstealing8starstrike: {
+	inherit: true,
+	isNonstandard: null,
+},
 };
