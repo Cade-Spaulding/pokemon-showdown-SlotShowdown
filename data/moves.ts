@@ -21658,7 +21658,6 @@ soulstealing8starstrike: {
 		accuracy: true,
 		basePower: 100,
 		category: "Special",
-		isNonstandard: "Past",
 		name: "Soul-Stealing 8-Star Strike",
 		pp: 1,
 		noPPBoosts: true,
