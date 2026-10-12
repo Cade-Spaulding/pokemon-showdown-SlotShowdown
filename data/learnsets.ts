@@ -104410,6 +104410,7 @@ scrubbub: {
 	learnset: {
 		rocksmash: ["9M"],
 		trailblaze: ["9M"],
+		clearfield: ["9M"],
 		recover: ["9M"],
 		nightshade: ["9M"],
 		uturn: ["9M"],
