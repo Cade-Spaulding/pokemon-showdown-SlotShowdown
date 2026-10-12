@@ -7836,4 +7836,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		shortDesc: "Steals target's boosts before dealing damage.",
 
 		clearBoost: "  {SOURCE} stole the target's boosted stats!",	},
+	clearfield: {
+	name: "Clear Field",
+		desc: "Clear All Field Effects",
+		shortDesc: "Clear All Field Effects",
 };
