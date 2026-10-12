@@ -1172,5 +1172,8 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 },soulstealing8starstrike: {
 	inherit: true,
 	isNonstandard: null,
+},clearfield: {
+	inherit: true,
+	isNonstandard: null,
 },
 };
