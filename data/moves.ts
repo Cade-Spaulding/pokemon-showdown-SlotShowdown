@@ -21669,4 +21669,95 @@ soulstealing8starstrike: {
 		type: "Psychic",
 		contestType: "Cool",
 	},
+	
+clearfield: {
+    num: -1007,
+    accuracy: true,
+    basePower: 0,
+    category: "Status",
+    name: "Clear Field",
+    pp: 5,
+    priority: 0,
+    flags: {},
+    target: "all",
+    type: "Normal",
+    shortDesc: "Removes specified battlefield effects from both sides.",
+
+    onHitField() {
+        let success = false;
+
+        // All weather and terrain
+        if (this.field.clearWeather()) success = true;
+        if (this.field.clearTerrain()) success = true;
+
+        // Gravity and the three Rooms
+        const fieldConditions = [
+            'gravity',
+            'trickroom',
+            'wonderroom',
+            'magicroom',
+        ];
+
+        for (const condition of fieldConditions) {
+            if (this.field.removePseudoWeather(condition)) {
+                success = true;
+            }
+        }
+
+        // Entry hazards, Tailwind, and Pledge combos
+        const hazards = [
+            'spikes',
+            'toxicspikes',
+            'stealthrock',
+            'stickyweb',
+            'gmaxsteelsurge',
+        ];
+
+        const otherSideConditions = [
+            'tailwind',
+            'grasspledge', // Swamp
+            'waterpledge', // Rainbow
+            'firepledge',  // Burning Field / Sea of Fire
+        ];
+
+        for (const side of this.sides) {
+            for (const condition of hazards) {
+                if (side.removeSideCondition(condition)) {
+                    this.add(
+                        '-sideend',
+                        side,
+                        'move: ' + this.dex.conditions.get(condition).name
+                    );
+                    success = true;
+                }
+            }
+
+            for (const condition of otherSideConditions) {
+                if (side.removeSideCondition(condition)) {
+                    success = true;
+                }
+            }
+        }
+
+        // Substitute and Leech Seed on every active Pokemon
+        for (const pokemon of this.getAllActive()) {
+            if (pokemon.removeVolatile('substitute')) {
+                success = true;
+            }
+
+            if (pokemon.removeVolatile('leechseed')) {
+                this.add(
+                    '-end',
+                    pokemon,
+                    'Leech Seed',
+                    '[from] move: Clear Field'
+                );
+                success = true;
+            }
+        }
+
+        return success;
+    },
+},
+
 };
