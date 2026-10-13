@@ -7840,4 +7840,15 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	name: "Clear Field",
 		desc: "Clear All Field Effects",
 		shortDesc: "Clear All Field Effects",
+	},
+sandcurse: {
+	name: "Sand Curse",
+	desc: "Deals damage to each adjacent opposing Pokemon equal to half of the user's current HP, rounded down, but not less than 1 HP. Has decreased priority.",
+	shortDesc: "Deals 1/2 user's current HP to adjacent foes. Usually moves last.",
+},
+fightingstance: {
+	name: "Fighting Stance",
+	desc: "Raises the user's Attack by 2 stages and Speed by 1 stage, and lowers the user's Defense and Special Defense by 2 stages.",
+	shortDesc: "Raises user's Attack by 2, Speed by 1; lowers Defense and Sp. Def by 2.",
+},
 };
