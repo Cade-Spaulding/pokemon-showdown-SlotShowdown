@@ -104751,7 +104751,7 @@ contagiana: {
 		scaryface: ["9L1"],
 		shadowball: ["9L1"],
 		shadowsneak: ["9L1"],
-		sludgebomg: ["9L1"],
+		sludgebomb: ["9L1"],
 		sludgewave: ["9L1"],
 		snarl: ["9L1"],
 		sunnyday: ["9L1"],
