@@ -1175,5 +1175,11 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 },clearfield: {
 	inherit: true,
 	isNonstandard: null,
+},sandcurse: {
+	inherit: true,
+	isNonstandard: null,
+},fightingstance: {
+	inherit: true,
+	isNonstandard: null,
 },
 };
