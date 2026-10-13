@@ -5763,5 +5763,18 @@ lightanddark: {
     num: -6,
     isNonstandard: null,
 },
-
+sandybody: {
+	name: "Sandy Body",
+	rating: 4,
+	flags: {},
+	onStart(pokemon) {
+		this.field.setWeather("sandstorm", pokemon);
+	},
+	onAfterMove(pokemon) {
+		this.field.setWeather("sandstorm", pokemon);
+	},
+	onDamagingHit(damage, target) {
+		this.field.setWeather("sandstorm", target);
+	},
+},
 };
