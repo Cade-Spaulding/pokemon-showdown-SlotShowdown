@@ -2334,5 +2334,8 @@ helmet: {
     desc: "non-Crits against this pokemon deal 75% damage",
     shortDesc: "non-Crits against this pokemon deal 75% damage",
 },
-
+sandybody: {
+	name: "Sandy Body",
+	shortDesc: "On switch-in, after moving, or when hit by an attack, this Pokemon summons Sandstorm.",
+},
 };
