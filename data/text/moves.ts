@@ -7844,7 +7844,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 sandcurse: {
 	name: "Sand Curse",
 	desc: "Deals damage to each adjacent opposing Pokemon equal to half of the user's current HP, rounded down, but not less than 1 HP. Has decreased priority.",
-	shortDesc: "Deals 1/2 user's current HP to adjacent foes. Usually moves last.",
+	shortDesc: "Deals 1/2 user's HP to adjacent foes. Moves last.",
 },
 fightingstance: {
 	name: "Fighting Stance",
