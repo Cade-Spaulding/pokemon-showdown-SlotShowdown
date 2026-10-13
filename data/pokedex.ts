@@ -23561,7 +23561,7 @@ gamblimp: {
     isNonstandard: "Custom",
 },
 jabbers: {
-    num: -1008,
+    num: -1010,
     name: "Jabbers",
     types: ["Fighting"],
     gender: "N",
