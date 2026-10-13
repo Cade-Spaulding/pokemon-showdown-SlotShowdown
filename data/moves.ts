@@ -21670,6 +21670,7 @@ soulstealing8starstrike: {
 		contestType: "Cool",
 	},
 	
+
 clearfield: {
     num: -1007,
     accuracy: true,
@@ -21681,7 +21682,7 @@ clearfield: {
     flags: {},
     target: "all",
     type: "Normal",
-    shortDesc: "Removes specified battlefield effects from both sides.",
+    shortDesc: "Removes specified field effects from both sides.",
 
     onHitField() {
         let success = false;
@@ -21690,12 +21691,13 @@ clearfield: {
         if (this.field.clearWeather()) success = true;
         if (this.field.clearTerrain()) success = true;
 
-        // Gravity and the three Rooms
+        // Field-wide conditions
         const fieldConditions = [
             'gravity',
             'trickroom',
             'wonderroom',
             'magicroom',
+            'fairylock',
         ];
 
         for (const condition of fieldConditions) {
@@ -21704,7 +21706,7 @@ clearfield: {
             }
         }
 
-        // Entry hazards, Tailwind, and Pledge combos
+        // All entry hazards
         const hazards = [
             'spikes',
             'toxicspikes',
@@ -21713,33 +21715,40 @@ clearfield: {
             'gmaxsteelsurge',
         ];
 
-        const otherSideConditions = [
+        // Team-wide conditions and Pledge effects
+        const sideConditions = [
             'tailwind',
+            'reflect',
+            'lightscreen',
+            'auroraveil',
+            'safeguard',
             'grasspledge', // Swamp
             'waterpledge', // Rainbow
-            'firepledge',  // Burning Field / Sea of Fire
+            'firepledge',  // Burning Field
         ];
 
+        // Clear both teams
         for (const side of this.sides) {
             for (const condition of hazards) {
                 if (side.removeSideCondition(condition)) {
                     this.add(
                         '-sideend',
                         side,
-                        'move: ' + this.dex.conditions.get(condition).name
+                        this.dex.conditions.get(condition).name
                     );
                     success = true;
                 }
             }
 
-            for (const condition of otherSideConditions) {
+            for (const condition of sideConditions) {
                 if (side.removeSideCondition(condition)) {
                     success = true;
                 }
             }
         }
 
-        // Substitute and Leech Seed on every active Pokemon
+        // Remove Substitute and Leech Seed
+        // from every active Pokemon
         for (const pokemon of this.getAllActive()) {
             if (pokemon.removeVolatile('substitute')) {
                 success = true;
@@ -21759,5 +21768,6 @@ clearfield: {
         return success;
     },
 },
+
 
 };
