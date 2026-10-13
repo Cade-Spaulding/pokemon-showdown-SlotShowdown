@@ -6278,4 +6278,15 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		shedible: {
 	tier: "Illegal",
 },
+			sandevihost: {
+	tier: "Illegal",
+},
+
+		jabbers: {
+	tier: "Illegal",
+},
+	
+		contagiana: {
+	tier: "Illegal",
+},
 };
