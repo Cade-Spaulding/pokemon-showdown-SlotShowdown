@@ -21682,7 +21682,6 @@ clearfield: {
     flags: {},
     target: "all",
     type: "Normal",
-    shortDesc: "Removes specified field effects from both sides.",
 
     onHitField() {
         let success = false;
