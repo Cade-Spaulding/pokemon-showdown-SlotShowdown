@@ -50,3 +50,18 @@ FormatsData.shedible = {
 	doublesTier: 'DOU',
 	isNonstandard: null,
 };
+FormatsData.sandevihost = {
+	tier: 'OU',
+	doublesTier: 'DOU',
+	isNonstandard: null,
+};
+FormatsData.jabbers = {
+	tier: 'OU',
+	doublesTier: 'DOU',
+	isNonstandard: null,
+};
+FormatsData.contagiana = {
+	tier: 'OU',
+	doublesTier: 'DOU',
+	isNonstandard: null,
+};
