@@ -21768,6 +21768,38 @@ clearfield: {
         return success;
     },
 },
-
+sandcurse: {
+	name: "Sand Curse",
+	accuracy: 100,
+	basePower: 0,
+	category: "Special",
+	pp: 10,
+	priority: -1,
+	flags: { protect: 1, mirror: 1, metronome: 1 },
+	target: "allAdjacentFoes",
+	type: "Rock",
+	damageCallback(source) {
+		return Math.max(1, Math.floor(source.hp / 2));
+	},
+},
+fightingstance: {
+	name: "Fighting Stance",
+	accuracy: 100,
+	basePower: 70,
+	category: "Physical",
+	pp: 10,
+	priority: 0,
+	flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+	target: "normal",
+	type: "Fighting",
+	self: {
+		boosts: {
+			atk: 2,
+			spe: 1,
+			def: -2,
+			spd: -2,
+		},
+	},
+},
 
 };
