@@ -104922,7 +104922,7 @@ sowln: {
 	},
 },
 
-replacepsychicpoisonid: {
+curzad: {
 	learnset: {
 		calmmind: ["9L1"],
 		cosmicdoom: ["9L1"],
@@ -104954,9 +104954,6 @@ replacepsychicpoisonid: {
 		uturn: ["9L1"],
 		venoshock: ["9L1"],
 		willowisp: ["9L1"],
-
-		// Unresolved submitted name:
-		// psyschock
 	},
 },
 
