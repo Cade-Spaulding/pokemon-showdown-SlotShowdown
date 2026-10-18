@@ -21801,4 +21801,218 @@ fightingstance: {
 	},
 },
 
+giveup: {
+	num: -2101,
+	name: "Give Up",
+	accuracy: true,
+	basePower: 0,
+	category: "Status",
+	pp: 10,
+	priority: 0,
+	type: "Normal",
+	target: "self",
+	flags: {},
+	gen: 9,
+	isNonstandard: "Custom",
+
+	onTryHit(source) {
+		if (!this.canSwitch(source.side) ||
+			source.volatiles['commanded']) {
+			this.add('-fail', source);
+			return this.NOT_FAIL;
+		}
+
+		if (source.hp <= Math.ceil(source.maxhp / 4)) {
+			this.add('-fail', source, 'move: Give Up');
+			return this.NOT_FAIL;
+		}
+	},
+
+	onHit(target) {
+		this.directDamage(Math.ceil(target.maxhp / 4));
+	},
+
+	selfSwitch: true,
+},
+
+swiftystars: {
+	num: -2102,
+	name: "Swifty Stars",
+	accuracy: 100,
+	basePower: 60,
+	category: "Special",
+	pp: 20,
+	priority: 1,
+	type: "Fairy",
+	target: "allAdjacentFoes",
+	flags: {
+		protect: 1,
+		mirror: 1,
+	},
+	gen: 9,
+	isNonstandard: "Custom",
+},
+
+cosmicdoom: {
+	num: -2103,
+	name: "Cosmic Doom",
+	accuracy: 100,
+	basePower: 100,
+	category: "Special",
+	pp: 10,
+	priority: 0,
+	type: "Psychic",
+	target: "normal",
+	flags: {
+		protect: 1,
+		mirror: 1,
+	},
+	gen: 9,
+	isNonstandard: "Custom",
+
+	secondary: {
+		chance: 50,
+		onHit(target, source, move) {
+			const status = this.sample([
+				'brn',
+				'psn',
+				'par',
+				'slp',
+			]);
+
+			target.trySetStatus(status, source, move);
+		},
+	},
+},
+
+electroguard: {
+	num: -2104,
+	name: "Electro Guard",
+	accuracy: true,
+	basePower: 0,
+	category: "Status",
+	pp: 10,
+	priority: 1,
+	type: "Electric",
+	target: "allySide",
+	flags: {},
+	gen: 9,
+	isNonstandard: "Custom",
+
+	onTry() {
+		return this.field.isTerrain('electricterrain');
+	},
+
+	sideCondition: 'electroguard',
+
+	condition: {
+		duration: 1,
+
+		onSideStart(side) {
+			this.add(
+				'-sidestart',
+				side,
+				'move: Electro Guard'
+			);
+		},
+
+		onTryBoost(boost, target) {
+			// The user does not receive protection.
+			if (target === this.effectState.source) return;
+
+			let blocked = false;
+
+			for (const stat of [
+				'atk',
+				'def',
+				'spa',
+				'spd',
+				'spe',
+				'accuracy',
+				'evasion',
+			] as const) {
+				if (
+					boost[stat] !== undefined &&
+					boost[stat]! < 0
+				) {
+					delete boost[stat];
+					blocked = true;
+				}
+			}
+
+			if (blocked) {
+				this.add(
+					'-activate',
+					target,
+					'move: Electro Guard'
+				);
+			}
+		},
+
+		onSideEnd(side) {
+			this.add(
+				'-sideend',
+				side,
+				'move: Electro Guard'
+			);
+		},
+	},
+},
+
+fairyshield: {
+	num: -2105,
+	name: "Fairy Shield",
+	accuracy: true,
+	basePower: 0,
+	category: "Status",
+	pp: 8,
+	noPPBoosts: true,
+	priority: 1,
+	type: "Fairy",
+	target: "allySide",
+	flags: {},
+	gen: 9,
+	isNonstandard: "Custom",
+
+	onTry() {
+		return this.field.isTerrain('mistyterrain');
+	},
+
+	sideCondition: 'fairyshield',
+
+	condition: {
+		duration: 3,
+
+		onSideStart(side) {
+			this.add(
+				'-sidestart',
+				side,
+				'move: Fairy Shield'
+			);
+		},
+
+		onAnyDamage(damage, target) {
+			if (
+				damage > 0 &&
+				this.effectState.target.hasAlly(target)
+			) {
+				return Math.max(
+					1,
+					Math.floor(damage * 0.8)
+				);
+			}
+		},
+
+		onSideResidualOrder: 26,
+		onSideResidualSubOrder: 10,
+
+		onSideEnd(side) {
+			this.add(
+				'-sideend',
+				side,
+				'move: Fairy Shield'
+			);
+		},
+	},
+
 };
