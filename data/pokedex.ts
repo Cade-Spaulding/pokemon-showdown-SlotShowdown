@@ -23525,7 +23525,7 @@ gamblimp: {
 	maxHP: 1,
 
     abilities: {
-      0: "Wonder Guard",
+      0: "420 Protection",
     },
     heightm: 1.5,
     weightkg: 45,
@@ -23542,10 +23542,10 @@ gamblimp: {
     baseStats: {
         hp: 115,
         atk: 50,
-        def: 95,
+        def: 78,
         spa: 120,
-        spd: 103,
-        spe: 105,
+        spd: 70,
+        spe: 71,
     },
 
     abilities: {
@@ -23611,4 +23611,126 @@ jabbers: {
     gen: 9,
     isNonstandard: "Custom",
 },
+
+	
+clashtler: {
+	num: -2001,
+	name: "Clashtler",
+	types: ["Fighting", "Normal"],
+	baseStats: {
+		hp: 101,
+		atk: 106,
+		def: 111,
+		spa: 63,
+		spd: 50,
+		spe: 69,
+	},
+	abilities: {
+		0: "Never Back Down, Never What?",
+	},
+	heightm: 1,
+	weightkg: 1,
+	color: "Brown",
+	eggGroups: ["Field"],
+	gen: 9,
+	isNonstandard: "Custom",
+},
+
+mhoutar: {
+	num: -2002,
+	name: "Mhoutar",
+	types: ["Ground", "Fairy"],
+	baseStats: {
+		hp: 80,
+		atk: 30,
+		def: 70,
+		spa: 90,
+		spd: 70,
+		spe: 100,
+	},
+	abilities: {
+		0: "Cheek Pouch",
+		1: "Compound Eyes",
+	},
+	heightm: 1,
+	weightkg: 1,
+	color: "Brown",
+	eggGroups: ["Field"],
+	gen: 9,
+	isNonstandard: "Custom",
+},
+
+sowln: {
+	num: -2003,
+	name: "Sowln",
+	types: ["Flying", "Ice"],
+	baseStats: {
+		hp: 60,
+		atk: 40,
+		def: 100,
+		spa: 120,
+		spd: 100,
+		spe: 60,
+	},
+	abilities: {
+		0: "Early Bird",
+		1: "Gale Wings",
+	},
+	heightm: 1,
+	weightkg: 1,
+	color: "White",
+	eggGroups: ["Flying"],
+	gen: 9,
+	isNonstandard: "Custom",
+},
+
+klefzap: {
+	num: -2004,
+	name: "Klefzap",
+	types: ["Electric", "Fairy"],
+	baseStats: {
+		hp: 82,
+		atk: 62,
+		def: 79,
+		spa: 121,
+		spd: 109,
+		spe: 47,
+	},
+	abilities: {
+		0: "Misty Surge",
+		1: "Electric Surge",
+		H: "Plus",
+	},
+	heightm: 1,
+	weightkg: 1,
+	color: "Yellow",
+	eggGroups: ["Mineral"],
+	gen: 9,
+	isNonstandard: "Custom",
+},
+
+curzad: {
+	num: -2005,
+	name: "Curzad,
+	types: ["Psychic", "Poison"],
+	baseStats: {
+		hp: 90,
+		atk: 40,
+		def: 80,
+		spa: 135,
+		spd: 120,
+		spe: 120,
+	},
+	abilities: {
+		0: "Levitate",
+		1: "Magician",
+	},
+	heightm: 1,
+	weightkg: 1,
+	color: "Purple",
+	eggGroups: ["Amorphous"],
+	gen: 9,
+	isNonstandard: "Custom",
+},
+
 };
