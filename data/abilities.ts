@@ -5763,18 +5763,59 @@ lightanddark: {
     num: -6,
     isNonstandard: null,
 },
+
 sandybody: {
 	name: "Sandy Body",
 	rating: 4,
 	flags: {},
-	onStart(pokemon) {
-		this.field.setWeather("sandstorm", pokemon);
-	},
-	onAfterMove(pokemon) {
+	onAfterMove(pokemon, target, move) {
+		if (
+			move.stallingMove ||
+			['wideguard', 'quickguard', 'craftyshield'].includes(move.id)
+		) return;
+
 		this.field.setWeather("sandstorm", pokemon);
 	},
 	onDamagingHit(damage, target) {
 		this.field.setWeather("sandstorm", target);
 	},
 },
+420protection: {
+		onTryHit(target, source, move) {
+			if (target === source || move.category === 'Status' || move.id === 'struggle') return;
+			if (move.id === 'skydrop' && !source.volatiles['skydrop']) return;
+			this.debug('Wonder Guard immunity: ' + move.id);
+			if (target.runEffectiveness(move) <= 0 || !target.runImmunity(move)) {
+				if (move.smartTarget) {
+					move.smartTarget = false;
+				} else {
+					this.add('-immune', target, '[from] ability: Wonder Guard');
+				}
+				return null;
+			}
+		},
+		flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, failskillswap: 1, breakable: 1 },
+		name: "420 Protection",
+		rating: 5,
+		num: 25,
+	},
+					
+neverbackdownneverwhat: {
+	name: "Never Back Down, Never What?",
+	rating: 5,
+	flags: {},
+	onStart(pokemon) {
+		if (pokemon.volatiles['noretreat']) return;
+
+		pokemon.addVolatile('noretreat');
+		this.boost({
+			atk: 1,
+			def: 1,
+			spa: 1,
+			spd: 1,
+			spe: 1,
+		}, pokemon);
+	},
+},
+
 };
