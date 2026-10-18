@@ -65,36 +65,35 @@ FormatsData.contagiana = {
 	doublesTier: 'DOU',
 	isNonstandard: null,
 
+};
 
 
 FormatsData.clashtler: {
 	tier: "OU",
 	doublesTier: "DOU",
 	isNonstandard: null,
-},
+};
 
 FormatsData.mhoutar: {
 	tier: "OU",
 	doublesTier: "DOU",
 	isNonstandard: null,
-},
+};
 
 FormatsData.sowln: {
 	tier: "OU",
 	doublesTier: "DOU",
 	isNonstandard: null,
-},
+};
 
 FormatsData.klefzap: {
 	tier: "OU",
 	doublesTier: "DOU",
 	isNonstandard: null,
-},
+};
 
 FormatsData.curzad: {
 	tier: "OU",
 	doublesTier: "DOU",
 	isNonstandard: null,
-},
-
 };
