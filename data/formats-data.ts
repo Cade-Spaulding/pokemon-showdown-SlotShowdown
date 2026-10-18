@@ -6289,4 +6289,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		contagiana: {
 	tier: "Illegal",
 },
+	
+clashtler: { tier: "Illegal" },
+mhoutar: { tier: "Illegal" },
+sowln: { tier: "Illegal" },
+klefzap: { tier: "Illegal" },
+curzad: { tier: "Illegal" },
+
 };
