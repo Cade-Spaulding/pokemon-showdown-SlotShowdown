@@ -23711,7 +23711,7 @@ klefzap: {
 
 curzad: {
 	num: -2005,
-	name: "Curzad,
+	name: "Curzad",
 	types: ["Psychic", "Poison"],
 	baseStats: {
 		hp: 90,
