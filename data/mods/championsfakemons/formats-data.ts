@@ -68,31 +68,31 @@ FormatsData.contagiana = {
 };
 
 
-FormatsData.clashtler: {
+FormatsData.clashtler = {
 	tier: "OU",
 	doublesTier: "DOU",
 	isNonstandard: null,
 };
 
-FormatsData.mhoutar: {
+FormatsData.mhoutar = {
 	tier: "OU",
 	doublesTier: "DOU",
 	isNonstandard: null,
 };
 
-FormatsData.sowln: {
+FormatsData.sowln = {
 	tier: "OU",
 	doublesTier: "DOU",
 	isNonstandard: null,
 };
 
-FormatsData.klefzap: {
+FormatsData.klefzap = {
 	tier: "OU",
 	doublesTier: "DOU",
 	isNonstandard: null,
 };
 
-FormatsData.curzad: {
+FormatsData.curzad = {
 	tier: "OU",
 	doublesTier: "DOU",
 	isNonstandard: null,
