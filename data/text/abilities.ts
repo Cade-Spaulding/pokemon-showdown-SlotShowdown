@@ -2338,7 +2338,7 @@ sandybody: {
 	name: "Sandy Body",
 	shortDesc: "On switch-in, after moving, or when hit by an attack, this Pokemon summons Sandstorm.",
 },
-	420protection: {
+	p420protection: {
     name: "420 Protection",
     desc: "Same effects as wonder guard",
     shortDesc: "Same effects as wonder guard",
