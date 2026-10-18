@@ -7851,4 +7851,36 @@ fightingstance: {
 	desc: "Raises the user's Attack by 2 stages and Speed by 1 stage, and lowers the user's Defense and Special Defense by 2 stages.",
 	shortDesc: "Raises user's Attack by 2, Speed by 1; lowers Defense and Sp. Def by 2.",
 },
+
+	
+giveup: {
+	name: "Give Up",
+	desc: "The user loses 1/4 of its maximum HP and switches out.",
+	shortDesc: "Loses 1/4 max HP and switches out.",
+},
+
+swiftystars: {
+	name: "Swifty Stars",
+	desc: "+1 priority, hits all adjacent opposing Pokemon.",
+	shortDesc: "+1 priority. Hits both opposing Pokemon.",
+},
+
+cosmicdoom: {
+	name: "Cosmic Doom",
+	desc: "Has a 50% chance to inflict a randomly chosen status condition: burn, poison, paralysis, or sleep.",
+	shortDesc: "50% chance to burn, poison, paralyze, or sleep.",
+},
+
+electroguard: {
+	name: "Electro Guard",
+	desc: "Can only be used during Electric Terrain. For the remainder of the turn, the user's allies are protected from stat reductions, including self-inflicted reductions.",
+	shortDesc: "Electric Terrain: prevents allies' stat drops this turn.",
+},
+
+fairyshield: {
+	name: "Fairy Shield",
+	desc: "Can only be used during Misty Terrain. Reduces damage taken by Pokemon on the user's side by 20% for 3 turns.",
+	shortDesc: "On Misty Terrain: user's side takes 20% less damage for 3 turns.",
+},
+
 };
