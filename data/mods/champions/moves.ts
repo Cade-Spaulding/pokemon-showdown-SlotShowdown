@@ -1182,4 +1182,25 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	inherit: true,
 	isNonstandard: null,
 },
+giveup: {
+	inherit: true,
+	isNonstandard: null,
+},
+swiftystars: {
+	inherit: true,
+	isNonstandard: null,
+},
+cosmicdoom: {
+	inherit: true,
+	isNonstandard: null,
+},
+electroguard: {
+	inherit: true,
+	isNonstandard: null,
+},
+fairyshield: {
+	inherit: true,
+	isNonstandard: null,
+},
+
 };
