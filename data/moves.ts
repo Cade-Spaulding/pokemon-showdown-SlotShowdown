@@ -22015,4 +22015,30 @@ fairyshield: {
 		},
 	},
 },
+
+	
+sharpeningcut: {
+	num: -2106,
+	name: "Sharpening Cut",
+	accuracy: 100,
+	basePower: 70,
+	category: "Physical",
+	pp: 10,
+	priority: 0,
+	type: "Steel",
+	target: "normal",
+	flags: {contact: 1, protect: 1, mirror: 1, slicing: 1},
+	gen: 9,
+	isNonstandard: "Custom",
+
+	secondary: {
+		chance: 100,
+		self: {
+			boosts: {
+				atk: 1,
+			},
+		},
+	},
+},
+
 };
