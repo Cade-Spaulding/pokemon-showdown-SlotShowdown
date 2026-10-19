@@ -7880,7 +7880,7 @@ electroguard: {
 fairyshield: {
 	name: "Fairy Shield",
 	desc: "Can only be used during Misty Terrain. Reduces damage taken by Pokemon on the user's side by 20% for 3 turns.",
-	shortDesc: "On Misty Terrain: user's side takes 20% less damage for 3 turns.",
+	shortDesc: "For 3 turns, damage to allies 80%. Misty terrain only.",
 },
 
 sharpeningcut: {
