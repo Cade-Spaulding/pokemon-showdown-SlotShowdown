@@ -5780,7 +5780,7 @@ sandybody: {
 		this.field.setWeather("sandstorm", target);
 	},
 },
-p420protection: {
+"420protection": {
 		onTryHit(target, source, move) {
 			if (target === source || move.category === 'Status' || move.id === 'struggle') return;
 			if (move.id === 'skydrop' && !source.volatiles['skydrop']) return;
