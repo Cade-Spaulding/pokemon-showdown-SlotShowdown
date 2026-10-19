@@ -97,3 +97,8 @@ FormatsData.curzad = {
 	doublesTier: "DOU",
 	isNonstandard: null,
 };
+FormatsData.vulclaw = {
+	tier: "OU",
+	doublesTier: "DOU",
+	isNonstandard: null,
+};
