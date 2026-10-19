@@ -23732,5 +23732,27 @@ curzad: {
 	gen: 9,
 	isNonstandard: "Custom",
 },
-
+vulclaw: {
+	num: -2006,
+	name: "Vulclaw",
+	types: ["Fire", "Steel"],
+	baseStats: {
+		hp: 90,
+		atk: 130,
+		def: 100,
+		spa: 50,
+		spd: 100,
+		spe: 40,
+	},
+	abilities: {
+		0: "Sharpness",
+		1: "Flash Fire",
+	},
+	heightm: 1,
+	weightkg: 250,
+	color: "Black",
+	eggGroups: ["Amorphous"],
+	gen: 9,
+	isNonstandard: "Custom",
+},
 };
