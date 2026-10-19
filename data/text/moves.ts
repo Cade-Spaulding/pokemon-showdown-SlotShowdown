@@ -7883,4 +7883,9 @@ fairyshield: {
 	shortDesc: "On Misty Terrain: user's side takes 20% less damage for 3 turns.",
 },
 
+sharpeningcut: {
+	name: "Sharpening cut",
+	desc: "Increases attack by 1 stage, slashing move.",
+	shortDesc: "Increases attack by 1 stage, slashing move.",
+},
 };
