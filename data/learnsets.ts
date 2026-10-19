@@ -104866,11 +104866,7 @@ mhoutar: {
 		tailwhip: ["9L1"],
 		tearfullook: ["9L1"],
 		yawn: ["9L1"],
-
-		// Unresolved submitted names:
-		// sliverwind
-		// psychicfang
-		// stuffchecks
+		stockpile: ["9L1"],
 	},
 },
 
@@ -105014,5 +105010,58 @@ klefzap: {
 		zapcannon: ["9L1"],
 	},
 },
+
+
+vulclaw: {
+    learnset: {
+        bitterblade: ["9L1"],
+        blastburn: ["9L1"],
+        bodypress: ["9L1"],
+        brickbreak: ["9L1"],
+        brutalswing: ["9L1"],
+        bulkup: ["9L1"],
+        bulldoze: ["9L1"],
+        burnup: ["9L1"],
+        ceaselessedge: ["9L1"],
+        dragonclaw: ["9L1"],
+        feint: ["9L1"],
+        firefang: ["9L1"],
+        firelash: ["9L1"],
+        flamecharge: ["9L1"],
+        flamethrower: ["9L1"],
+        flareblitz: ["9L1"],
+        guillotine: ["9L1"],
+        hardpress: ["9L1"],
+        headsmash: ["9L1"],
+        heatcrash: ["9L1"],
+        heavyslam: ["9L1"],
+        irondefense: ["9L1"],
+        ironhead: ["9L1"],
+        metalburst: ["9L1"],
+        nightslash: ["9L1"],
+        overheat: ["9L1"],
+        payback: ["9L1"],
+        poisonjab: ["9L1"],
+        psychicfangs: ["9L1"],
+        psychocut: ["9L1"],
+        ragingfury: ["9L1"],
+        rest: ["9L1"],
+        roar: ["9L1"],
+        rockslide: ["9L1"],
+        rocktomb: ["9L1"],
+        sacredsword: ["9L1"],
+        shadowclaw: ["9L1"],
+        sharpeningcut: ["9L1"],
+        smartstrike: ["9L1"],
+        steelroller: ["9L1"],
+        stoneaxe: ["9L1"],
+        swordsdance: ["9L1"],
+        throatchop: ["9L1"],
+        thunderfang: ["9L1"],
+        wideguard: ["9L1"],
+        xscissor: ["9L1"],
+    },
+},
+
 
 };
