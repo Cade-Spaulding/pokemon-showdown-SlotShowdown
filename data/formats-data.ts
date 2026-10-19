@@ -6295,5 +6295,6 @@ mhoutar: { tier: "Illegal" },
 sowln: { tier: "Illegal" },
 klefzap: { tier: "Illegal" },
 curzad: { tier: "Illegal" },
+vulclaw: { tier: "Illegal" },
 
 };
