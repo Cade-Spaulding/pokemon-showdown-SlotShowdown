@@ -343,7 +343,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 				'Open Team Sheets',
 			],
 				unbanlist: [
-		"Typen","struggly","shirkuroo","gamblimp","wyrspark","tidasmith","scrubbub","shedible","sandevihost","jabbers","contagiana","clashtler","mhoutar","sowln","curzad","klefzap"
+		"Typen","struggly","shirkuroo","gamblimp","wyrspark","tidasmith","scrubbub","shedible","sandevihost","jabbers","contagiana","clashtler","mhoutar","sowln","curzad","klefzap","vulclaw"
 	],
 		},
 
