@@ -1202,5 +1202,8 @@ fairyshield: {
 	inherit: true,
 	isNonstandard: null,
 },
-
+sharpeningcut: {
+	inherit: true,
+	isNonstandard: null,
+},
 };
