@@ -105060,6 +105060,7 @@ vulclaw: {
         thunderfang: ["9L1"],
         wideguard: ["9L1"],
         xscissor: ["9L1"],
+		protect: ["9L1"],
     },
 },
 
