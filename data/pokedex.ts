@@ -23468,12 +23468,12 @@ gamblimp: {
     types: ["Fire","Water"],
     gender: "N",
     baseStats: {
-        hp: 105,
+        hp: 75,
         atk: 60,
-        def: 130,
+        def: 120,
         spa: 65,
-        spd: 110,
-        spe: 30,
+        spd: 100,
+        spe: 50,
     },
     abilities: {
       0: "Earth Eater",
