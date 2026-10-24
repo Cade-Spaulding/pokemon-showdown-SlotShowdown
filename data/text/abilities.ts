@@ -2336,7 +2336,7 @@ helmet: {
 },
 sandybody: {
 	name: "Sandy Body",
-	shortDesc: "On switch-in, after moving, or when hit by an attack, this Pokemon summons Sandstorm.",
+	shortDesc: "After moving, or when hit by an attack, this Pokemon summons Sandstorm.",
 },
 	"420protection": {
     name: "420 Protection",
